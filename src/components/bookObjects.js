@@ -15,8 +15,8 @@ import logo1 from "/assets/logosBig/Fiery_Color_021.png";
 import coverImage1 from "/assets/coverImages/IMG_9389 copy.jpg";
 import coverImage2 from "/assets/coverImages/IMG_9393 copy.jpg";
 import coverImage3 from "/assets/coverImages/IMG_9409 copy.jpg";
-import video1 from "/assets/coverImages/IMG_9401.mp4"
-import video2 from "/assets/coverImages/IMG_9408.mp4"
+// import video1 from "/assets/coverImages/IMG_9401.mp4"
+// import video2 from "/assets/coverImages/IMG_9408.mp4"
 
 export const BOOKS = [
     {
@@ -52,16 +52,16 @@ export const BOOKS = [
             imgFile: coverImage3
           },     
         ],
-        media: [
-          {
-            id: 1,
-            videoFile: video1,
-          },
-          {
-            id: 2,
-            videoFile: video2
-          }
-        ],
+        // media: [
+        //   {
+        //     id: 1,
+        //     videoFile: video1,
+        //   },
+        //   {
+        //     id: 2,
+        //     videoFile: video2
+        //   }
+        // ],
         available: true,
       },
       // {
