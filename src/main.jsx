@@ -12,7 +12,7 @@ import Root, { loader as rootLoader } from "./routes/root";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/officialebs",
     element: <Root />,
     errorElement: <ErrorPage />,
     loader: rootLoader,
