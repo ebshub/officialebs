@@ -1,5 +1,5 @@
 import { BOOKS } from "./components/bookObjects.js";
-import { INSITUIMAGES } from "./components/inSituImages.js"
+import { INSITUIMAGES } from "./components/InSituImages.js";
 
 export async function getBooks() {
     let books = BOOKS

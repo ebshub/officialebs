@@ -89,12 +89,12 @@ export default function Root() {
       <div className="px-2 py-2">
         <h1 className=" font-bold">e.bs</h1>
         <p className="text-xs pb-2">
-          editionsbierisusanne-ebs is an artists' book publisher with
+          editionsbierisusanne-ebs is an artists&apos; book publisher with
           headquarters in Bern/CH and a second office in Bevagna/IT. ebs
-          artists' publications are produced in collaboration with artists and
+          artists&apos; publications are produced in collaboration with artists and
           institutions according to their own rules.
         </p>
-        <div className="grid sm:grid-cols-1  lg:grid-cols-2 2xl:grid-cols-3 gap-2">
+        <div className="grid sm:grid-cols-1  lg:grid-cols-1 justify-center gap-2 w-1/2 m-auto ">
           {inSituImages.map((inSituImage) => (
             <div key={inSituImage} className="">
               <img src={inSituImage}></img>
